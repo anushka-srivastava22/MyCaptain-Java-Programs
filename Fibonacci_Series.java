@@ -10,15 +10,15 @@ class Fibonacci_Series
         int b=0;
         int c=1;
         System.out.print("Fibonacci Series : ");
-        System.out.print(a+" ");
-        System.out.print(b+" ");
+        System.out.print(a+",");
+        System.out.print(b+",");
         
         for(int x=1;x<=n;x++)
         {
             a=b;
             b=c;
             c=a+b;
-            System.out.print(c+" ");
+            System.out.print(c+",");
         }
     }
 }
